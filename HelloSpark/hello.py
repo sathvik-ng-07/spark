@@ -13,6 +13,7 @@ if __name__ == "__main__":
 
     logger = Log4j(spark)
 
+
     if len(sys.argv) != 2:
         logger.error("Usage: HelloSpark <filename>")
         sys.exit(-1)
